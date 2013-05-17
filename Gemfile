@@ -9,6 +9,7 @@ group :development do
 	gem 'sqlite3'
 	gem 'rspec-rails', '~> 2.0'
 	gem 'annotate', ">=2.5.0"
+	gem "factory_girl_rails", '4.2.0'
 end
 
 group :production do
@@ -19,6 +20,7 @@ group :test do
 	gem 'sqlite3'
 	gem 'rspec-rails', '~> 2.0'
 	gem 'webrat'
+	gem "factory_girl_rails", '4.2.0'
 end
 
 
